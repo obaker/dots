@@ -1,0 +1,16 @@
+# Programs that will run after Openbox has started
+setxkbmap gb & #Set keymap to UK English
+xrandr --output HDMI-0 --auto --primary --output DVI-D-0 --auto --right-of HDMI-0 & #xrandr to correct monitors
+wallpaper.sh &
+lxpolkit & #Policity Kit Manager 
+picom -b & #Composisiting
+polybar panel -r & # Polybar
+dunst & # Notifications
+#Start commonly used programs
+blueman-applet &
+steam -silent & 
+firefox &
+clementine &
+discord &
+yakyak &
+caprine &

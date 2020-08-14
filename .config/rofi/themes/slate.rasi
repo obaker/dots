@@ -1,0 +1,61 @@
+configuration {
+        display-combi: "🔎";
+	display-drun: "Drun";
+	display-run: "Run";
+	display-window: "🪟";
+	display-ssh: "🌐";
+	show-icons: true;
+	sidebar-mode: false;
+	//font: "Source Code Pro 15";
+}
+* {
+  background-color: #004266;
+  border-color: #004266;
+  text-color: #e6f6ff;
+  spacing: 0;
+  transparency: "real";
+  border-radius: 20;
+
+
+}
+
+inputbar {
+  enabled: true;
+  border: 0 0 1px 0;
+  children: [prompt,entry];
+}
+
+prompt {
+  padding: 16px;
+  border: 0 0px 0 0;
+
+}
+textbox {
+  background-color: #004266;
+  border: 0 0 0px 0;
+  border-color: #282C33;
+  padding: 0px 0px;
+
+}
+
+entry {
+  padding: 16px;
+
+}
+
+listview {
+  cycle: false;
+  margin: 0 0 -1px 0;
+  scrollbar: false;
+}
+
+element {
+  border: 0 0 1px 0;
+  padding: 12px;
+
+}
+
+element selected {
+  background-color:  #0085cc;
+
+}

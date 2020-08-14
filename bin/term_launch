@@ -1,0 +1,5 @@
+if pgrep xfce4-terminal; then
+  xfce4-terminal --tab
+else
+  xfce4-terminal
+fi

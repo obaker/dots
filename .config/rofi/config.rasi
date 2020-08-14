@@ -1,0 +1,8 @@
+configuration {
+   modi: "combi,ssh,window";
+  show-icons:         true;
+  sidebar-mode: false;
+   combi-modi: "window,drun,ssh";
+   lines: 10;
+}
+@import "/home/ocb/.config/rofi/themes/slate.rasi"
